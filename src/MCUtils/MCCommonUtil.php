@@ -10,6 +10,6 @@ namespace mcframework\MCUtils;
 
 class MCCommonUtil {
     public function testUtil() {
-        echo "12cshbbds3223";
+        echo "MCCommonUtil-chenggong";
     }
 }

@@ -9,6 +9,6 @@ namespace mcframework\Exceptions;
 
 class MCException {
     public static function testException() {
-        echo "chenzhe123";
+        echo "MCException-chenggong";
     }
 }
