@@ -9,7 +9,7 @@
             "email": "chenzhe@meicai.cn"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
     	"php": ">=5.3.0"
     },
