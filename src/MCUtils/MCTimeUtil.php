@@ -13,7 +13,7 @@ class MCTimeUtil {
     //getMillSecond:获取时间戳(毫秒)
 
 
-    
+
 
     /*
      * 获取时间戳(秒)
