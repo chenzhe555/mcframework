@@ -6,12 +6,11 @@
  */
 
 
-namespace api\utils\log;
+namespace mcframework\mclogs;
 
 use mcframework\exceptions\MCBaseException;
 use mcframework\exceptions\MCParameterException;
 use mcframework\exceptions\MCRPCException;
-use mcframework\mclogs\MCLogsUtil;
 
 class ExceptionLog {
     private static $_instance = null;
