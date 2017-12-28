@@ -54,6 +54,6 @@ class MCRPCException extends MCBaseException {
     }
 
     public function getRPCParam() {
-        return json_encode($this->rpcParam);
+        return $this->rpcParam;
     }
 }
