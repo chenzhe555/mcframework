@@ -26,8 +26,8 @@ class MCHttpUtil {
         return [
             "ret" => 0,
             "error" => [
-                "errorMsg" => $msg,
-                "errorCode" => $code
+                "msg" => $msg,
+                "code" => $code
             ]
         ];
     }
