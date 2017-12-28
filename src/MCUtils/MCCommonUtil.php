@@ -11,10 +11,14 @@ use mcframework\exceptions\MCParameterException;
 
 class MCCommonUtil {
 
-    private static $KeyValueEmpty = 10000100;
-
     //checkIsSet:校验数组对象中的key对应是否有设置值
     //checkEmpty:校验数组对象中的key对应是否有值,"" 0 0.0 "0" null false [] 声明了没设置值 都认为值不存在
+    //compareNumber:比较版本号
+
+    private static $KeyValueEmpty = 10000100;
+
+
+
 
     /*
      * 校验数组对象中的key对应是否有设置值

@@ -9,6 +9,15 @@ namespace mcframework\mcutils;
 
 class MCTimeUtil {
 
+    //getSecond:获取时间戳(秒)
+    //getMillSecond:获取时间戳(毫秒)
+
+
+    
+
+    /*
+     * 获取时间戳(秒)
+     * */
     public static function getSecond() {
         return round(microtime(true));
     }
