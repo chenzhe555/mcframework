@@ -11,6 +11,7 @@ namespace mcframework\mclogs;
 use mcframework\exceptions\MCBaseException;
 use mcframework\exceptions\MCParameterException;
 use mcframework\exceptions\MCRPCException;
+use mcframework\exceptions\MCRequestException;
 
 class MCExceptionLog {
     private static $_instance = null;
@@ -50,6 +51,10 @@ class MCExceptionLog {
             elseif ($exception_name == "MCRPCException")
             {
                 $this->logRPCException($exception);
+            }
+            elseif ($exception_name == "MCRequestException")
+            {
+                $this->logRequestException($exception);
             }
             else
             {
@@ -113,6 +118,13 @@ class MCExceptionLog {
         if ($type == "error")
         {
             \Yii::error(MCLogsUtil::getErrorInfoType2("MCLog_RPCException",$exception->getMessage(),$exception->getCode(),$exception->getFile(),$exception->getLine(),$exception->getRPCMessage(),$exception->getRPCCode(),$exception->getRPCUrl(),$exception->getRPCParam()));
+        }
+    }
+
+    private function logRequestException(MCRequestException $exception,$type = "error") {
+        if ($type == "error")
+        {
+            \Yii::error(MCLogsUtil::getErrorInfoType3("MCLog_RequestException",$exception->getMessage(),$exception->getCode(),$exception->getFile(),$exception->getLine(),$exception->getRequestUrl(),$exception->getRequestParam()));
         }
     }
 }

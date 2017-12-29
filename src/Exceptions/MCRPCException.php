@@ -12,6 +12,11 @@ use Throwable;
 
 class MCRPCException extends MCBaseException {
 
+    public function getName()
+    {
+        return "MCRPCException";
+    }
+
     //RPC调用失败之后 业务内的错误信息
     private $rpcMessage;
 
@@ -34,11 +39,6 @@ class MCRPCException extends MCBaseException {
         $this->rpcCode = $rpcCode;
         $this->rpcUrl = $rpcUrl;
         $this->rpcParam = $rpcParam;
-    }
-
-    public function getName()
-    {
-        return "MCRPCException";
     }
 
     public function getRPCMessage() {

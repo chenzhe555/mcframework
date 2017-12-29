@@ -37,4 +37,19 @@ class MCLogsUtil {
             "rpcParam"  => json_encode($rpcParam),
         ]);
     }
+
+    /*
+    * 返回基本错误信息
+    * */
+    public static function getErrorInfoType3($type,$msg,$code,$file,$line,$requestUrl,$requestParam) {
+        return json_encode([
+            "type"      => $type,
+            "msg"       => $msg,
+            "code"      => $code,
+            "file"      => $file,
+            "line"      => $line,
+            "requestUrl"    => $requestUrl,
+            "requestParam"   => json_encode($requestParam)
+        ]);
+    }
 }
