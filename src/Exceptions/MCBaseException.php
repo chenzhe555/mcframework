@@ -20,7 +20,7 @@ class MCBaseException extends \Exception {
             $arg_values = func_get_args();
 
             //根据参数个数的不同，走不同的业务逻辑
-            if ($arg_num == 7)
+            if ($arg_num == 7 || $arg_num == 5)
             {
                 $method_name = "__construct".$arg_num;
                 if (method_exists($this,$method_name))
