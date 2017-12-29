@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bb225239-7c5f-45bd-89ec-23c30a77ef19" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MCUtils/MCHttpUtil.php" afterPath="$PROJECT_DIR$/src/MCUtils/MCHttpUtil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exceptions/MCRequestException.php" afterPath="$PROJECT_DIR$/src/Exceptions/MCRequestException.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MCHttpUtil.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MCHttpUtil.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MCUtils/MCHttpUtil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="465">
+              <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
                 <element signature="e#6#74#0#PHP" expanded="true" />
               </folding>
@@ -81,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MCRequestException.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MCRequestException.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Exceptions/MCRequestException.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="324">
+              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="e#6#74#0#PHP" expanded="true" />
               </folding>
@@ -148,8 +148,8 @@
         <option value="$PROJECT_DIR$/src/Exceptions/MCRPCException.php" />
         <option value="$PROJECT_DIR$/src/Logs/MCLogsUtil.php" />
         <option value="$PROJECT_DIR$/src/Logs/MCExceptionLog.php" />
-        <option value="$PROJECT_DIR$/src/Exceptions/MCRequestException.php" />
         <option value="$PROJECT_DIR$/src/MCUtils/MCHttpUtil.php" />
+        <option value="$PROJECT_DIR$/src/Exceptions/MCRequestException.php" />
       </list>
     </option>
   </component>
@@ -517,12 +517,12 @@
       <option name="presentableId" value="Default" />
       <updated>1514382043700</updated>
       <workItem from="1514382045079" duration="5457000" />
-      <workItem from="1514474833763" duration="7093000" />
+      <workItem from="1514474833763" duration="8393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24023000" />
+    <option name="totallyTimeSpent" value="25323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
@@ -873,16 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exceptions/MCRequestException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="e#6#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Logs/MCExceptionLog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -895,8 +885,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MCUtils/MCHttpUtil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="465">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#6#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exceptions/MCRequestException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="e#6#74#0#PHP" expanded="true" />
           </folding>

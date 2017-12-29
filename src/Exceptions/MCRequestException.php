@@ -23,7 +23,7 @@ class MCRequestException extends MCBaseException {
     /*
      * 处理RPC调用中的错误，要求业务层必须传入5个参数
      * */
-    public function __construct7($message = "", $code = 0,Throwable $previous = null,$requestUrl = "",$requestParam = 0)
+    public function __construct5($message = "", $code = 0,Throwable $previous = null,$requestUrl = "",$requestParam = [])
     {
         parent::__construct($message, $code);
         $this->requestUrl = $requestUrl;
