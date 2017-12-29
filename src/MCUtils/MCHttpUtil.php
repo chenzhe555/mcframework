@@ -22,12 +22,13 @@ class MCHttpUtil {
     /*
      * 构建网络请求失败结果
      * */
-    public static function buildFailResult($msg = "",$code = 0) {
+    public static function buildFailResult($msg = "",$code = 0,$extraInfo = []) {
         return [
             "ret" => 0,
             "error" => [
                 "msg" => $msg,
-                "code" => $code
+                "code" => $code,
+                "extraInfo" => $extraInfo
             ]
         ];
     }
