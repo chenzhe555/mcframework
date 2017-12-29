@@ -12,7 +12,7 @@ use mcframework\exceptions\MCBaseException;
 use mcframework\exceptions\MCParameterException;
 use mcframework\exceptions\MCRPCException;
 
-class ExceptionLog {
+class MCExceptionLog {
     private static $_instance = null;
 
     public static function getInstance() {
